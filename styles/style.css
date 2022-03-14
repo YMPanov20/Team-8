@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.background {
+    background-image: url("../images/background_mainPage.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.btn {
+    font-style: bold;
+    letter-spacing: 10px;
+    /* Promenq se za razmera */
+    font-size: 50px;
+    text-decoration: none;
+    color: #AACCFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(34, 34, 51, 0.8);
+    transition: all 0.3s ease-in-out;
+}
