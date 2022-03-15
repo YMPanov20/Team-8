@@ -1,9 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'League Gothic', sans-serif;
-}
-
+    font-family: 'Cinzel', serif;
+                        }
+                        
 .background {
     background-image: url("../images/background_mainPage.jpg");
     min-height: 100%;
@@ -12,12 +12,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+                        
 .center {
     margin-top: 400px;
     text-align: center;
 }
-
+                        
 .btn {
     font-style: bold;
     letter-spacing: 10px;
@@ -29,8 +29,38 @@
     padding: 10px 20px;
     border-radius: 5px;
 }
-
+                        
 .btn:hover {
     background-color: rgba(34, 34, 51, 0.8);
     transition: all 0.3s ease-in-out;
+}
+                        
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0);
+}
+                    
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+                        
+.navbar ul li {
+    margin: 0 1.5rem;
+    padding: 1.3rem;
+    font-size: 25px;
+}
+                        
+.navbar ul li a {
+    color: black;
+    transition: color .2s;
+    text-decoration: none;
+    font-family: 'League Gothic', sans-serif;
+}
+                        
+.navbar ul li a:hover {
+    color: rgb(25, 58, 52);
+    transition: all 0.2s ease-in-out;
 }
