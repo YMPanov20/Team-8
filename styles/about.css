@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    background-image: url("../images/aboutus_photo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0);
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 1.5rem;
+    padding: 1.3rem;
+}
+
+.navbar ul li a {
+    color: black;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(25, 58, 52);
+    transition: all 0.2s ease-in-out;
+}
+
+.about-section{
+    background-color: #fdfdfd;
+    overflow: hidden;
+    background-size: 90%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.inner-container{
+    width: 70%;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
